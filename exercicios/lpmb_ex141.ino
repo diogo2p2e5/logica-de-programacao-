@@ -20,10 +20,18 @@ void loop()
   numero2 = Serial.parseInt();
   
   if(numero > numero2){
-    Serial.println("o primeiro numero eh maior que o segundo");
+    Serial.println(" ");
+    Serial.println(numero);   
+    Serial.println("eh maior que");               
+    Serial.println(numero2);
+    Serial.println(" ");
+                   
   }else{
-    Serial.println("o segundo numero eh maior que o segundo");
-  
+    Serial.println(" ");
+   Serial.println(numero2);   
+    Serial.println("eh maior que");               
+    Serial.println(numero);
+   Serial.println(" ");
   }
   
   delay(1000); // Wait for 1000 millisecond(s)
